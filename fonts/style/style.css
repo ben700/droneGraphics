@@ -1,0 +1,127 @@
+/* developed by Garret Reiger, Google Fonts 
+
+
+Tourney
+Recursive
+Public+Sans
+Roboto+Slab
+Oswald
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Open+Sans&family=Public+Sans:wght@1..900&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+p{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1em;
+}
+
+.error{
+     color:red 
+}
+
+
+h1{
+    font-family: 'Merriweather Sans', sans-serif;
+   font-size: 5vw;
+  font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+h2{
+    font-family: 'Merriweather Sans', sans-serif;
+   font-size: 4vw;
+  font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+h3{
+    font-family: 'Merriweather Sans', sans-serif;
+   font-size: 3vw;
+  font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+h4{
+    font-family: 'Merriweather Sans', sans-serif;
+   font-size: 2vw;
+  font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+h5{
+    font-family: 'Merriweather Sans', sans-serif;
+   font-size: 1vw;
+  font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+.button{
+  background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+        border-radius: 12px;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+transition-duration: 0.4s;
+}
+
+.button1{
+    background: url(../images/save_black_24dp.svg);
+    background-color: green; /* Green */
+  
+}
+
+.button2{
+    background: url(../images/wifi_black_24dp.svg);
+    background-color: red; /* Green */
+  
+}
+
+.button3{
+    background: url(../images/settings_ethernet_black_24dp.svg);
+    background-color: orange; /* Green */
+  
+}
+
+
+
+.button:hover {
+  background-color: white; /* Green */
+  color: green;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+span {
+  font-size: 7.5vw;
+  animation: 5s infinite variation;
+}
+
+@keyframes variation {
+  0% {
+    font-weight: 100;
+  }
+  50% {
+    font-weight: 900;
+  }
+  100% {
+    font-weight: 100;
+  }
+}
+
+
